@@ -4,6 +4,15 @@
 >
 > 一份全面的中英双语调酒入门指南 —— 从基础装备到经典配方，助你从零开始学调酒。
 
+### Mirror / 镜像仓库
+
+| Platform | Link | Best for |
+|----------|------|----------|
+| GitHub | [M4jupitercannon/cocktail-beginners-guide](https://github.com/M4jupitercannon/cocktail-beginners-guide) | Global access / 海外访问 |
+| Gitee (码云) | [M4jupitercannon/cocktail-beginners-guide](https://gitee.com/M4jupitercannon/cocktail-beginners-guide) | China mainland / 中国大陆访问 |
+
+> **中国大陆用户**：如果 GitHub 访问缓慢，请使用 Gitee 镜像仓库，内容与 GitHub 保持同步。
+
 ---
 
 ## Table of Contents / 目录
@@ -81,6 +90,34 @@ This guide is compiled from the following professional bartending resources:
 - *The Craft of the Cocktail* by Dale DeGroff
 - *Liquid Intelligence* by Dave Arnold
 - *Death & Co: Modern Classic Cocktails*
+
+---
+
+## China Mainland Access / 中国大陆访问指南
+
+如果你在中国大陆访问 GitHub 速度较慢，可以通过以下方式获取本仓库内容：
+
+### 方式一：Gitee 镜像（推荐）
+
+本仓库在 Gitee 上维护了同步镜像，国内访问速度极快：
+
+**Gitee 地址**：https://gitee.com/M4jupitercannon/cocktail-beginners-guide
+
+### 方式二：Git 克隆加速
+
+使用国内 GitHub 加速镜像克隆：
+
+```bash
+# 使用 ghproxy 加速（任选其一）
+git clone https://ghfast.top/https://github.com/M4jupitercannon/cocktail-beginners-guide.git
+
+# 或直接从 Gitee 克隆
+git clone https://gitee.com/M4jupitercannon/cocktail-beginners-guide.git
+```
+
+### 方式三：直接下载 ZIP
+
+在 GitHub 仓库页面点击 **Code → Download ZIP**，或访问 Gitee 镜像下载。
 
 ---
 
