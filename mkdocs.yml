@@ -1,0 +1,113 @@
+site_name: "Cocktail Beginner's Guide / 调酒初学者完全指南"
+site_url: https://m4jupitercannon.github.io/cocktail-beginners-guide/
+site_description: "A bilingual cocktail guide for beginners / 中英双语调酒入门指南"
+site_author: M4jupitercannon
+repo_url: https://github.com/M4jupitercannon/cocktail-beginners-guide
+repo_name: M4jupitercannon/cocktail-beginners-guide
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Noto Sans SC
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+nav:
+  - Home / 首页: index.md
+  - 基础装备 / Equipment:
+      - 中文: equipment/cn.md
+      - English: equipment/en.md
+  - 六大基酒 / Base Spirits:
+      - 中文: base-spirits/cn.md
+      - English: base-spirits/en.md
+  - 调酒技术 / Techniques:
+      - 中文: techniques/cn.md
+      - English: techniques/en.md
+  - 经典配方 / Recipes:
+      - 中文索引: recipes/cn.md
+      - English Index: recipes/en.md
+      - "★ Beginner":
+          - Gin & Tonic / 金汤力: recipes/01-gin-and-tonic.md
+          - Moscow Mule / 莫斯科骡子: recipes/02-moscow-mule.md
+          - Highball / 威士忌苏打: recipes/03-highball.md
+          - Paloma / 帕洛玛: recipes/04-paloma.md
+      - "★★ Intermediate":
+          - Daiquiri / 代基里: recipes/05-daiquiri.md
+          - Whiskey Sour / 威士忌酸: recipes/06-whiskey-sour.md
+          - Margarita / 玛格丽特: recipes/07-margarita.md
+          - Cosmopolitan / 大都会: recipes/08-cosmopolitan.md
+          - Mojito / 莫吉托: recipes/09-mojito.md
+          - Amaretto Sour / 杏仁酸酒: recipes/10-amaretto-sour.md
+          - Gimlet / 琴蕾: recipes/11-gimlet.md
+          - Tom Collins / 汤姆柯林斯: recipes/12-tom-collins.md
+          - Old Fashioned / 古典鸡尾酒: recipes/13-old-fashioned.md
+          - Negroni / 内格罗尼: recipes/14-negroni.md
+      - "★★★ Advanced":
+          - Manhattan / 曼哈顿: recipes/15-manhattan.md
+          - Dry Martini / 干马天尼: recipes/16-dry-martini.md
+          - Espresso Martini / 浓缩咖啡马天尼: recipes/17-espresso-martini.md
+          - Mai Tai / 迈泰: recipes/18-mai-tai.md
+          - Jungle Bird / 丛林鸟: recipes/19-jungle-bird.md
+          - Paper Plane / 纸飞机: recipes/20-paper-plane.md
+  - 糖浆辅料 / Syrups:
+      - 中文: syrups-and-mixers/cn.md
+      - English: syrups-and-mixers/en.md
+  - 风味理论 / Flavor:
+      - 中文: flavor-theory/cn.md
+      - English: flavor-theory/en.md
+  - 学习资源 / Resources:
+      - 中文: resources/cn.md
+      - English: resources/en.md
+  - 术语表 / Glossary:
+      - 中文: glossary/cn.md
+      - English: glossary/en.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/M4jupitercannon
